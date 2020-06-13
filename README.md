@@ -60,6 +60,9 @@ https://github.com/square/retrofit -A type-safe HTTP client for Android and Java
 
 https://github.com/bumptech/glide  -An image loading and caching library for Android focused on smooth scrolling
 
+### added a demo video of this android app
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/demo_video/demo.mp4)
+
 
 ### Developed BY
 
