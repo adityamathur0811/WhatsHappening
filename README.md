@@ -7,28 +7,16 @@ about what's going on in your city to what's going on in the world this app keep
 
 
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/1.jpeg)
-
-
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/2.jpeg)
-
-
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/3.jpeg)
-
-
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/4.jpeg)
-
-
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/5.jpeg)
-
-
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/6.jpeg)
 
 ### you can also search for particular NEWS
 
 
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/7.jpeg)
-
-
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/8.jpeg)
 
 
@@ -53,8 +41,6 @@ about what's going on in your city to what's going on in the world this app keep
 ### check about change in GPS service and notify you if GPS is disabled
 
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/11.jpeg)
-
-
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/14.jpeg)
 
 
@@ -62,8 +48,6 @@ about what's going on in your city to what's going on in the world this app keep
 ### notify you about connectivity searvice because this app neads an active internet connection
 
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/12.jpeg)
-
-
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/13.jpeg)
 
 
