@@ -13,7 +13,7 @@ about what's going on in your city to what's going on in the world this app keep
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/5.jpeg)
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/6.jpeg)
 
-### you can also search for news
+### you can also search for particular NEWS
 
 
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/7.jpeg)
@@ -65,8 +65,8 @@ https://github.com/bumptech/glide  -An image loading and caching library for And
 
 Aditya Mathur
 
-mail address-admathur08@gmail.com
-GitHub-@adityamathur0811
+mail   -admathur08@gmail.com
+GitHub -@adityamathur0811
 
 
 ### Build Using
