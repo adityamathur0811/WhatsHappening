@@ -50,6 +50,11 @@ about what's going on in your city to what's going on in the world this app keep
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/12.jpeg)
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/13.jpeg)
 
+
+### added a demo video of this android app
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/video/demo.mp4)
+
+
 ### credits
 
 https://github.com/intuit/sdp      -An Android SDK that provides a new size unit - sdp (scalable dp). This size unit scales with the screen size.
@@ -60,8 +65,6 @@ https://github.com/square/retrofit -A type-safe HTTP client for Android and Java
 
 https://github.com/bumptech/glide  -An image loading and caching library for Android focused on smooth scrolling
 
-### added a demo video of this android app
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/demo_video/demo.mp4)
 
 
 ### Developed BY
@@ -86,5 +89,3 @@ Memory: 1246M
 Cores: 4
 Registry: ide.new.welcome.screen.force=true
 Non-Bundled Plugins: 
-
-###
