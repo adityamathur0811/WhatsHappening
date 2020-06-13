@@ -29,7 +29,7 @@ about what's going on in your city to what's going on in the world this app keep
 
 ### you can see full news article by just clicking on the news 
 
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/16.jpeg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/15.jpeg)
 
 
 ### use GPS service to automatically select your city and show NEWS relatedto your city
@@ -53,7 +53,11 @@ about what's going on in your city to what's going on in the world this app keep
 ### credits
 
 https://github.com/intuit/sdp      -An Android SDK that provides a new size unit - sdp (scalable dp). This size unit scales with the screen size.
+
+
 https://github.com/square/retrofit -A type-safe HTTP client for Android and Java.
+
+
 https://github.com/bumptech/glide  -An image loading and caching library for Android focused on smooth scrolling
 
 
