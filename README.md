@@ -51,9 +51,6 @@ about what's going on in your city to what's going on in the world this app keep
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/13.jpeg)
 
 
-### added a demo video of this android app
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/video/demo.mp4)
-
 
 ### credits
 
