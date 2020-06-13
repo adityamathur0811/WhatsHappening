@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    </group>
+    <item android:title="@string/hot_news">
+        <menu>
+            <item
+                android:id="@+id/factMenu"
+                android:title="@string/fact_check" />
+            <item
+                android:id="@+id/covid"
+                android:title="@string/covid19" />
+
+        </menu>
+
+    </item>
+    <item android:title="@string/top_business_news_around_the_world">
+        <menu>
+            <item
+                android:id="@+id/business"
+                android:title="@string/business1" />
+            <item
+                android:id="@+id/financeMenu"
+                android:title="@string/finance" />
+            <item
+                android:id="@+id/sharemarketMenu"
+                android:title="@string/share_market" />
+            <item
+                android:id="@+id/economyMenu"
+                android:title="@string/economy" />
+        </menu>
+
+    </item>
+    <item android:title="@string/topSports_news_around_the_world">
+        <menu>
+            <item
+                android:id="@+id/allMenu"
+                android:title="@string/all_sports_news" />
+
+            <item
+                android:id="@+id/cricket"
+                android:title="@string/menu_cricket" />
+            <item
+                android:id="@+id/Football"
+                android:title="@string/football" />
+            <item
+                android:id="@+id/golfMenu"
+                android:title="@string/Golf" />
+            <item
+                android:id="@+id/basketballmenu"
+                android:title="@string/basketball" />
+            <item
+                android:id="@+id/tenisMenu"
+                android:title="@string/tennis" />
+            <item
+                android:id="@+id/badmintonMenu"
+                android:title="@string/badminton" />
+
+        </menu>
+    </item>
+    <item android:title="@string/LifeStyle">
+        <menu>
+            <item
+                android:id="@+id/health"
+                android:title="@string/Health" />
+
+            <item
+                android:id="@+id/fashion"
+                android:title="@string/fashion" />
+            <item
+                android:id="@+id/entartainmentMenu"
+                android:title="@string/entertainment1" />
+        </menu>
+    </item>
+    <item android:title="@string/techWorld">
+        <menu>
+            <item
+                android:id="@+id/TechNews"
+                android:title="@string/techNews" />
+
+            <item
+                android:id="@+id/mobile"
+                android:title="@string/mobile" />
+            <item
+                android:id="@+id/gadget"
+                android:title="@string/gadget" />
+        </menu>
+    </item>
+
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:title="@string/about" />
+            <item
+                android:id="@+id/contact"
+                android:title="@string/contact_us" />
+        </menu>
+
+    </item>
+
+</menu>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blackColor"
+    tools:context=".MyCity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="UselessParent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/city"
+    android:gravity="center"
+    android:id="@+id/cityName"
+    android:textColor="@color/colorRed"
+    android:textSize="@dimen/_40sdp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/cityName"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerFromMyCity"
+        android:layoutAnimation="@anim/layout_for_anim"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+</RelativeLayout>
+
+</FrameLayout>
