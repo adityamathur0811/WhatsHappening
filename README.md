@@ -3,52 +3,52 @@ its an android app for NEWS, in this user can see news from around the world of
 different different catagory and can also find news via custome search this app keep you up to date 
 about what's going on in your city to what's going on in the world this app keep you updated
 
-### added some ScreenShot
+### added some ScreenShots
 
 
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/1.jpeg)
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/2.jpeg)
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/3.jpeg)
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/4.jpeg)
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/5.jpeg)
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/6.jpeg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/1.jpg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/2.jpg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/3.jpg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/4.jpg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/5.jpg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/6.jpg)
 
 ### you can also search for news
 
 
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/7.jpeg)
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/8.jpeg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/7.jpg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/8.jpg)
 
 
 
 ### you can also use voice search
 
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/9.jpeg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/9.jpg)
 
 
 
 ### you can see full news article by just clicking on the news 
 
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/16.jpeg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/16.jpg)
 
 
 ### use GPS service to automatically select your city and show NEWS relatedto your city
 
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/10.jpeg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/10.jpg)
 
 
 
 ### check about change in GPS service and notify you if GPS is disabled
 
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/11.jpeg)
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/15.jpeg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/11.jpg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/15.jpg)
 
 
 
 ### notify you about connectivity searvice because this app neads an active internet connection
 
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/12.jpeg)
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/13.jpeg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/12.jpg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/13.jpg)
 
 ### credits
 
