@@ -1,2 +1,2 @@
 # WhatsHappening  
-this is an news app
+this is an news android app
