@@ -32,7 +32,7 @@ about what's going on in your city to what's going on in the world this app keep
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/15.jpeg)
 
 
-### use GPS service to automatically select your city and show NEWS relatedto your city
+### use GPS service to automatically select your city and show NEWS related to your city
 
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/10.jpeg)
 
@@ -41,7 +41,7 @@ about what's going on in your city to what's going on in the world this app keep
 ### check about change in GPS service and notify you if GPS is disabled
 
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/11.jpeg)
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/15.jpeg)
+![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/14.jpeg)
 
 
 
