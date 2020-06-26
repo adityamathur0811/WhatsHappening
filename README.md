@@ -7,7 +7,7 @@ about what's going on in your city to what's going on in the world this app keep
 
 
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/1.jpeg)
-![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/2.jpeg)
+
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/3.jpeg)
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/4.jpeg)
 ![](https://github.com/adityamathur0811/WhatsHappening/blob/master/app_images/5.jpeg)
