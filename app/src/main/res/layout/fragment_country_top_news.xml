@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CountryTopNews">
+    tools:context=".HomeTabFragments.CountryTopNews">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerFromCTopNews"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Covid">
+    tools:context=".NavDrawerFagments.Covid">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerFromCovid"
