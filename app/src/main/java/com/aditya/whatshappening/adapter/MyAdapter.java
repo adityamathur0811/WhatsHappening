@@ -12,17 +12,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.aditya.whatshappening.RetrofitCode.Article;
+import com.aditya.whatshappening.retrofit_code.Article;
 import com.aditya.whatshappening.R;
-import com.aditya.whatshappening.WebViewCode.Web;
+import com.aditya.whatshappening.web_view_code.Web;
 import com.bumptech.glide.Glide;
 
 import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
-    List<Article> list;
-    Activity activity;
-    String orientation;
+    final List<Article> list;
+    final Activity activity;
+    final String orientation;
 
    public MyAdapter(List<Article> list, Activity activity,String orientation) {
         this.activity = activity;
@@ -84,8 +84,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
     static class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView textView;
-        ImageView imageView;
+        final TextView textView;
+        final ImageView imageView;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);

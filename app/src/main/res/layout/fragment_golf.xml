@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".NavDrawerFagments.Golf">
+    tools:context=".nav_drawer_fragments.Golf">
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/golf"
         android:layout_width="wrap_content"

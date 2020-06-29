@@ -54,6 +54,9 @@ about what's going on in your city to what's going on in the world this app keep
 
 ### credits
 
+
+https://newsapi.org/               -News API is a simple and easy-to-use API that returns JSON metadata for headlines and articles live all over the web right now.
+
 https://github.com/intuit/sdp      -An Android SDK that provides a new size unit - sdp (scalable dp). This size unit scales with the screen size.
 
 
