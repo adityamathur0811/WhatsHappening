@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.aditya.whatshappening.R;
+import com.aditya.whatshappening.adapter.CenterZoomLayoutManager;
 import com.aditya.whatshappening.retrofit_code.MyRetrofit;
 
 public class CountryBussiness extends Fragment implements MyRetrofit {
@@ -18,8 +19,6 @@ public class CountryBussiness extends Fragment implements MyRetrofit {
     public CountryBussiness() {
         // Required empty public constructor
     }
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

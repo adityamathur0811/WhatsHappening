@@ -6,6 +6,7 @@ import android.widget.Toast;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.aditya.whatshappening.adapter.CenterZoomLayoutManager;
 import com.aditya.whatshappening.adapter.MyAdapter;
 
 import java.util.List;
@@ -18,8 +19,9 @@ import retrofit2.Response;
 public interface MyRetrofit  {
     @EverythingIsNonNull
     default void retrofitSetupHorizontal(RecyclerView recyclerView, String str, Activity activity) {
-        LinearLayoutManager layoutManager = new LinearLayoutManager(activity, LinearLayoutManager.HORIZONTAL, false);
-        recyclerView.setLayoutManager(layoutManager);
+        //LinearLayoutManager layoutManager = new LinearLayoutManager(activity, LinearLayoutManager.HORIZONTAL, false);
+        CenterZoomLayoutManager centerZoomLayoutManager =new CenterZoomLayoutManager(activity,CenterZoomLayoutManager.HORIZONTAL,false);
+        recyclerView.setLayoutManager(centerZoomLayoutManager);
         Call<Pojo> pogoCall = RetofitInterface.retrofitInstance().getArticleList(str);
         pogoCall.enqueue(new Callback<Pojo>() {
             @Override
@@ -42,8 +44,8 @@ public interface MyRetrofit  {
     }
     @EverythingIsNonNull
     default void retrofitSetupVertical(RecyclerView recyclerView, String str, Activity activity) {
-        LinearLayoutManager layoutManager = new LinearLayoutManager(activity, LinearLayoutManager.VERTICAL, false);
-        recyclerView.setLayoutManager(layoutManager);
+        CenterZoomLayoutManager centerZoomLayoutManager =new CenterZoomLayoutManager(activity,CenterZoomLayoutManager.VERTICAL,false);
+        recyclerView.setLayoutManager(centerZoomLayoutManager);
         Call<Pojo> pogoCall = RetofitInterface.retrofitInstance().getArticleList(str);
         pogoCall.enqueue(new Callback<Pojo>() {
             @Override
