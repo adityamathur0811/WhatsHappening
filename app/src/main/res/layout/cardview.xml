@@ -19,7 +19,7 @@
             android:layout_height="@dimen/_200sdp"
             android:adjustViewBounds="true"
             android:scaleType="center"
-            android:src="@drawable/splash"
+            android:src="@drawable/notification_icon"
             android:contentDescription="@string/todo" />
 
         <TextView
@@ -36,6 +36,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/white"
             android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
             tools:ignore="RtlSymmetry" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

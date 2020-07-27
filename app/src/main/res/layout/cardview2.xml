@@ -19,7 +19,7 @@
             android:layout_height="@dimen/_200sdp"
             android:adjustViewBounds="true"
             android:scaleType="center"
-            android:src="@drawable/splash"
+            android:src="@drawable/notification_icon"
             android:contentDescription="@string/todo" />
 
         <TextView
@@ -30,6 +30,7 @@
             android:layout_below="@+id/displayImage"
             android:background="@color/mattyBlack"
             android:ellipsize="end"
+            android:textSize="@dimen/_15sdp"
             android:maxLines="3"
             android:paddingStart="@dimen/_20sdp"
             android:text="@string/loading"

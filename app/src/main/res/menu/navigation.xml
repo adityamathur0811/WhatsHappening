@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/Home"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/home"
         android:title="@string/home"
         />
 
     <item
         android:id="@+id/MyCity"
-        android:icon="@drawable/ic_location_city_black_24dp"
+        android:icon="@drawable/city"
         android:title="@string/my_city" />
     <item
         android:id="@+id/Trending"
-        android:icon="@drawable/ic_trending_up_black_24dp"
+        android:icon="@drawable/trending"
         android:title="@string/trending" />
 
 </menu>

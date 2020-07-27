@@ -255,9 +255,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     PendingIntent pendingIntent=PendingIntent.getActivity(MainActivity.this,1,intent,0);
                     Notification builder=new NotificationCompat.Builder(MainActivity.this,Channel_Td)
 
-                            .setSmallIcon(R.drawable.common_full_open_on_phone)
+                            .setSmallIcon(R.drawable.notification_icon)
                             .setContentTitle("GPS")
-                            .setContentText("Enable GPS")
+                            .setContentText("please enable GPS to get news from your current city")
                             .setPriority(NotificationCompat.PRIORITY_HIGH)
                             .setCategory(NotificationCompat.CATEGORY_EVENT)
                             .setContentIntent(pendingIntent)
