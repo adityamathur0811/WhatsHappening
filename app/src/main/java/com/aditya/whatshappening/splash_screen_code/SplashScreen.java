@@ -1,6 +1,8 @@
 package com.aditya.whatshappening.splash_screen_code;
 
 import android.content.Intent;
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -30,11 +32,12 @@ public class SplashScreen extends AppCompatActivity {
         t1.setAnimation(animation2);
         t2.setAnimation(animation);
         Window w = this.getWindow();
-        w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-        w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        w.setStatusBarColor(getResources().getColor(R.color.mattyBlack));
+        w.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        w.clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+        w.setStatusBarColor(getResources().getColor(R.color.gray));
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            w.setNavigationBarColor(getResources().getColor(R.color.mattyBlack));
+            w.setNavigationBarColor(getResources().getColor(R.color.gray));
         }
         new Handler().postDelayed(() -> {
             //define your task

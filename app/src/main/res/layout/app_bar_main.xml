@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mattyBlack"
+    android:background="@drawable/gradient"
     tools:context=".main_activity_code.MainActivity">
     <include layout="@layout/content_main" />
 

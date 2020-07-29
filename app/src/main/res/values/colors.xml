@@ -8,4 +8,6 @@
     <color name="white">#ffffff</color>
     <color name="mattyBlack">#232b2b</color>
     <color name="redDark">#ff1919</color>
+    <color name="gray">#928DAB</color>
+
 </resources>

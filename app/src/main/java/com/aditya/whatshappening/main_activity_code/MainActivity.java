@@ -1,12 +1,14 @@
 package com.aditya.whatshappening.main_activity_code;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.location.Address;
 import android.location.Geocoder;
@@ -92,6 +94,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     Bundle bundle1;
     AlertDialog.Builder ad;
 
+    @SuppressLint("ResourceAsColor")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -149,7 +152,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Window w = this.getWindow();
         w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
         w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        w.setStatusBarColor(Color.BLACK);
+        w.setStatusBarColor(getResources().getColor(R.color.gray));
 
         setSupportActionBar(toolbar);
 
