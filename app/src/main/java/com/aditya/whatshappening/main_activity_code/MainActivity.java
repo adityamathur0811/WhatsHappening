@@ -8,8 +8,6 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.content.res.Resources;
-import android.graphics.Color;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -24,6 +22,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
 import android.speech.RecognizerIntent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -48,28 +47,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.aditya.whatshappening.nav_drawer_fragments.All;
 import com.aditya.whatshappening.front_screen_fragment.Conatinerfragment;
 import com.aditya.whatshappening.front_screen_fragment.MyCity;
 import com.aditya.whatshappening.front_screen_fragment.Trending;
-import com.aditya.whatshappening.nav_drawer_fragments.BadMilton;
-import com.aditya.whatshappening.nav_drawer_fragments.BasketBall;
-import com.aditya.whatshappening.nav_drawer_fragments.Business;
-import com.aditya.whatshappening.nav_drawer_fragments.Covid;
-import com.aditya.whatshappening.nav_drawer_fragments.Cricket;
-import com.aditya.whatshappening.nav_drawer_fragments.Economy;
-import com.aditya.whatshappening.nav_drawer_fragments.Entartainment;
-import com.aditya.whatshappening.nav_drawer_fragments.FactCheck;
-import com.aditya.whatshappening.nav_drawer_fragments.Fashion;
-import com.aditya.whatshappening.nav_drawer_fragments.Fianance;
-import com.aditya.whatshappening.nav_drawer_fragments.Football;
-import com.aditya.whatshappening.nav_drawer_fragments.Gadget;
-import com.aditya.whatshappening.nav_drawer_fragments.Golf;
-import com.aditya.whatshappening.nav_drawer_fragments.Health;
-import com.aditya.whatshappening.nav_drawer_fragments.Mobile;
-import com.aditya.whatshappening.nav_drawer_fragments.ShareMarket;
-import com.aditya.whatshappening.nav_drawer_fragments.TechNews;
-import com.aditya.whatshappening.nav_drawer_fragments.Tenis;
+import com.aditya.whatshappening.nav_drawer_fragments.frag;
 import com.aditya.whatshappening.R;
 import com.aditya.whatshappening.search_bar_code.Search;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -185,15 +166,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             switch (item.getItemId()) {
                 case R.id.Trending:
                     fragment = new Trending();
-                    setFragment(fragment);
+                    setFragment2(fragment);
                     break;
                 case R.id.Home:
                     fragment = new Conatinerfragment();
-                    setFragment(fragment);
+                    setFragment2(fragment);
                     break;
                 case R.id.MyCity:
                     fragment = new MyCity();
-                    setFragment(fragment);
+                    setFragment2(fragment);
                     Bundle b = new Bundle();
                     b.putString("city", city);
                     fragment.setArguments(b);
@@ -307,7 +288,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     bundle.putString("Search", search);
                     Search searchObj = new Search();
                     searchObj.setArguments(bundle);
-                    setFragment(searchObj);
+                    setFragment2(searchObj);
                 }
 
 
@@ -330,134 +311,93 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.covid:
-                fragment = new Covid();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=covid&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
 
                 break;
             case R.id.cricket:
-
+                setFragment("https://newsapi.org/v2/everything?q=cricket&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
-
-                fragment = new Cricket();
-                setFragment(fragment);
                 break;
             case R.id.Football:
+                setFragment("https://newsapi.org/v2/everything?q=football&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
-
-                fragment = new Football();
-                setFragment(fragment);
-
             case R.id.business:
-
-                fragment = new Business();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=business&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
-
-                break;
             case R.id.TechNews:
-
-                fragment = new TechNews();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=tech&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
-
                 break;
             case R.id.financeMenu:
-
-                fragment = new Fianance();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=finance&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
 
                 break;
             case R.id.fashion:
-
-                fragment = new Fashion();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=fashhion&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
-
                 break;
             case R.id.mobile:
-
-                fragment = new Mobile();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=moblie&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
-
                 break;
             case R.id.gadget:
-
-                fragment = new Gadget();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=gadget&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
 
                 break;
             case R.id.factMenu:
-
-                fragment = new FactCheck();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=factcheck&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
 
                 break;
             case R.id.sharemarketMenu:
-
-                fragment = new ShareMarket();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=sharemarket&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
 
                 break;
             case R.id.economyMenu:
-
-                fragment = new Economy();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=economy&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
-
                 break;
             case R.id.allMenu:
-
-                fragment = new All();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=sports&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
 
                 break;
             case R.id.golfMenu:
-
-                fragment = new Golf();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=golf&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
 
                 break;
             case R.id.basketballmenu:
-
-                fragment = new BasketBall();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=basketball&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
 
                 break;
             case R.id.tenisMenu:
-
-                fragment = new Tenis();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=tennis&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
+
 
                 break;
             case R.id.badmintonMenu:
 
-                fragment = new BadMilton();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=badminton&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
 
                 break;
             case R.id.entartainmentMenu:
-
-                fragment = new Entartainment();
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=entertainment&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
+
 
                 break;
             case R.id.health:
-                fragment =new Health();
-
-                setFragment(fragment);
+                setFragment("https://newsapi.org/v2/everything?q=health&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                 drawer.closeDrawers();
+
                 break;
 
 
@@ -478,9 +418,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 search = value;
                 Bundle bundle=new Bundle();
                 bundle.putString("Search", search);
+
                 Search searchObj = new Search();
                 searchObj.setArguments(bundle);
-                setFragment(searchObj);
+                setFragment2(searchObj);
             }
 
         } catch (Exception e) {
@@ -489,14 +430,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         super.onActivityResult(requestCode, resultCode, data);
     }
-    public void setFragment(Fragment fragment) {
+    public void setFragment(String link) {
+        fragment=new frag();
+        Bundle b=new Bundle();
+        b.putString("link",link);
+        Log.d("link",link);
+        fragment.setArguments(b);
         fragmentManager = getSupportFragmentManager();
         fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.setFragment, fragment);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
+    public void setFragment2(Fragment fragment) {
 
+        fragmentManager = getSupportFragmentManager();
+        fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.setFragment, fragment);
+        fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.commit();
+    }
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
