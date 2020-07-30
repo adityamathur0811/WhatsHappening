@@ -2,10 +2,10 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/mattyBlack">
+    android:background="@color/gray">
 <TextView
     android:gravity="center"
-    android:background="@color/mattyBlack"
+    android:background="@color/gray"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="@string/complete_action_using"
@@ -24,7 +24,7 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/mattyBlack"
+            android:background="@color/gray"
             android:src="@drawable/ic_network_wifi_black_24dp"
             android:id="@+id/wifi"
             android:contentDescription="@string/todo" />
@@ -32,7 +32,7 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/mattyBlack"
+            android:background="@color/gray"
             android:src="@drawable/ic_network_cell_black_24dp"
             android:id="@+id/data"
             android:contentDescription="@string/todo" />
