@@ -49,7 +49,6 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.aditya.whatshappening.front_screen_fragment.Conatinerfragment;
 import com.aditya.whatshappening.front_screen_fragment.MyCity;
-import com.aditya.whatshappening.front_screen_fragment.Trending;
 import com.aditya.whatshappening.nav_drawer_fragments.frag;
 import com.aditya.whatshappening.R;
 import com.aditya.whatshappening.search_bar_code.Search;
@@ -165,8 +164,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
             switch (item.getItemId()) {
                 case R.id.Trending:
-                    fragment = new Trending();
-                    setFragment2(fragment);
+                    setFragment("https://newsapi.org/v2/everything?q=trending&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a");
                     break;
                 case R.id.Home:
                     fragment = new Conatinerfragment();
@@ -434,7 +432,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         fragment=new frag();
         Bundle b=new Bundle();
         b.putString("link",link);
-        Log.d("link",link);
         fragment.setArguments(b);
         fragmentManager = getSupportFragmentManager();
         fragmentTransaction = fragmentManager.beginTransaction();

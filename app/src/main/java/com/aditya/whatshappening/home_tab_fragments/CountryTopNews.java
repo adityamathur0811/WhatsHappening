@@ -12,9 +12,9 @@ import com.aditya.whatshappening.R;
 import com.aditya.whatshappening.retrofit_code.MyRetrofit;
 
 public class CountryTopNews extends Fragment implements MyRetrofit {
-    final String url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=69fad831d28b4ea0bd2d960bf3b7ac3a";
-    RecyclerView recyclerView;
 
+    RecyclerView recyclerView;
+    String link;
 
     public CountryTopNews() {
         // Required empty public constructor
@@ -27,7 +27,9 @@ public class CountryTopNews extends Fragment implements MyRetrofit {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_country_top_news, container, false);
         recyclerView = view.findViewById(R.id.recyclerFromCTopNews);
-        retrofitSetupHorizontal(recyclerView, url, requireActivity());
+        link = getArguments().getString("link");
+        assert link != null;
+        retrofitSetupHorizontal(recyclerView, link, requireActivity());
         return view;
     }
 }

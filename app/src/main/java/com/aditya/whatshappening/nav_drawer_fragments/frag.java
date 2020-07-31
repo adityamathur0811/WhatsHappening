@@ -26,7 +26,7 @@ public class frag extends Fragment implements MyRetrofit {
 
         // Inflate the layout for this fragment
 
-        View layout = inflater.inflate(R.layout.fragment_covid, container, false);
+        View layout = inflater.inflate(R.layout.fragment_frag, container, false);
         recyclerView = layout.findViewById(R.id.recyclerFromCovid);
         link = getArguments().getString("link");
         assert link != null;
