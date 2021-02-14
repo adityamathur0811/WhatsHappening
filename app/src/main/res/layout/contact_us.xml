@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mattyBlack">
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:src="@mipmap/whats_happening_round"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/developer"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:id="@+id/contactImage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/font5"
+        android:text="ADITYA MATHUR"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_30sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="9999861692"
+        android:fontFamily="@font/font5"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_30sdp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="admathur08@gmail.com"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font5"
+        android:textSize="@dimen/_20sdp"/>
+
+
+
+</LinearLayout>

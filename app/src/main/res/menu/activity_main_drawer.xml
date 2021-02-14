@@ -94,8 +94,10 @@
 
     <item android:title="@string/others">
         <menu>
-            <item android:title="@string/about" />
-            <item android:title="@string/contact_us" />
+            <item android:title="@string/about"
+                android:id="about"/>
+            <item android:title="@string/contact_us"
+                android:id="@+id/contact"/>
         </menu>
 
     </item>
